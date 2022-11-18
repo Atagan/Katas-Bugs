@@ -5,5 +5,5 @@
  * @author Laura.Ramos
  *
  */
-module bugs {
+module Tennis {
 }
