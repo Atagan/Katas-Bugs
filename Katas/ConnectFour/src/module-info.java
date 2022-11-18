@@ -5,5 +5,5 @@
  * @author Laura.Ramos
  *
  */
-module BerlinClock {
+module PaperScisorRock {
 }
