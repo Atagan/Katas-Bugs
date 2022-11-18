@@ -49,17 +49,44 @@ public String getStrippedSubstring(){
 
 problem5:
 
-publuiv startic final ByseSequence prefixEndOf(ByteSequence prefix){
+public static final ByseSequence prefixEndOf(ByteSequence prefix){
 	byte[] endKey= prefix.getBytes().clone();
-	for(int i=....l){
-		
+	for(int i=....; i<=0;i--){ 
+		if (endKey[i]>0xff){//comparison was reversed, endkey[i] was alwais greater than -1
+		....
+		}
 	}
 
 }
 
-Problem 10:
 
- 
+problem 6:
+
+private static byte char64(char x){
+	if((int) x < 0 && (int)x >index_64.lenth)//it sould be an and, not an or
+		return -1;
+	return index_64[(int)x]
+}
+
+problem 7:
+
+@Override
+public void putToCache(PutRecordsRequest putRecordsRequest)
+	....
+	if(!dataTmpfile.exists()){//it doesnt make sense for a file to be null
+		try{
+			dataTmpfile.createNewFile();
+		}catch(IOException e){
+			LOGGER.error("....",e);
+			return;
+		}
+	}
+
+Problem 8:
+
+
+
+Problem extra: 
 
 @Override
 public boolean equals(Object o){
