@@ -5,5 +5,5 @@
  * @author Laura.Ramos
  *
  */
-module ConnectFour {
+module BerlinClock {
 }
