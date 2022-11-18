@@ -5,5 +5,5 @@
  * @author Laura.Ramos
  *
  */
-module PaperScisorRock {
+module bugs {
 }
